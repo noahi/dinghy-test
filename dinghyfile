@@ -1,7 +1,6 @@
 {
   "application": "spin",
   "pipelines": [
-
     {
       "application": "spin",
       "name": "pipeline3",
@@ -19,7 +18,7 @@
         {
           "failPipeline": true,
           "judgmentInputs": [],
-          "name": "Manual Judgment",
+          "name": "Manual Judgment 2 judgement boogaloo",
           "notifications": [],
           "refId": "2",
           "requisiteStageRefIds": [
@@ -28,8 +27,7 @@
           "type": "manualJudgment"
         }
       ],
-      "triggers": [],
-      "updateTs": "1582224943000"
+      "triggers": []
     }
   ]
 }
