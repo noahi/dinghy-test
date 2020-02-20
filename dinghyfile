@@ -3,7 +3,7 @@
   "pipelines": [
     {
       "application": "spin",
-      "name": "pipeline 4",
+      "name": "pipeline 99",
       "keepWaitingPipelines": false,
       "lastModifiedBy": "admin",
       "limitConcurrent": true,
@@ -13,12 +13,12 @@
           "refId": "1",
           "requisiteStageRefIds": [],
           "type": "wait",
-          "waitTime": 5
+          "waitTime": 7
         },
         {
           "failPipeline": true,
           "judgmentInputs": [],
-          "name": "Manual Judgment 2 judgement boogaloo",
+          "name": "Manual Judgment 99",
           "notifications": [],
           "refId": "2",
           "requisiteStageRefIds": [
