@@ -3,7 +3,7 @@
   "pipelines": [
     {
       "application": "spin",
-      "name": "pipeline3",
+      "name": "pipeline 4",
       "keepWaitingPipelines": false,
       "lastModifiedBy": "admin",
       "limitConcurrent": true,
