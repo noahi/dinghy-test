@@ -1,0 +1,29 @@
+{
+  "application": "spin",
+  "pipelines": [
+    {
+      "application": "spin",
+      "name": "pipeline11",
+      "stages": [
+        {
+          "name": "Wait12",
+          "refId": "1",
+          "requisiteStageRefIds": [],
+          "type": "wait",
+          "waitTime": 5
+        },
+        {
+          "failPipeline": true,
+          "judgmentInputs": [],
+          "name": "Manual Judgment",
+          "notifications": [],
+          "refId": "2",
+          "requisiteStageRefIds": [
+            "1"
+          ],
+          "type": "manualJudgment"
+        }
+      ]
+    }
+  ]
+}
